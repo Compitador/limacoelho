@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Alberto Lima Coelho - Títulos e Honrarias</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="logo-container">
+        <img src="logo_carlos_alberto.jpg" alt="Logo de Carlos Alberto Lima Coelho" class="logo">
+    </div>
+
+    <header>
+        <h1>Carlos Alberto Lima Coelho</h1>
+        <nav>
+            <button class="hamburger" aria-label="Abrir menu">☰</button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Sobre</a></li>
+                <li><a href="biografia.html">Biografia</a></li>
+                <li><a href="publicacoes.html">Publicações</a></li>
+                <li><a href="instituicoes.html">Instituições</a></li>
+                <li><a href="titulos.html">Títulos e Honrarias</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="titulos">
+            <h2>Títulos e Honrarias</h2>
+            <div class="content">
+                <div class="text">
+                    <ul>
+                        <li>Medalha e Diploma do Mérito Esportivo Rubem Goulart (Secretaria de Estado de Esporte e Lazer)</li>
+                        <li>Medalha e Diploma Simão Estácio da Silveira (Câmara Municipal de São Luís)</li>
+                        <li>Medalha e Diploma Amigo do Exército Brasileiro (24º Batalhão de Caçadores/São Luís/MA)</li>
+                        <li>Medalha e Diploma da Confraria dos Poetas do Rio Grande do Sul</li>
+                        <li>Diplomado como Mestre Maçon (em 13/12/76 – GOB)</li>
+                    </ul>
+                </div>
+                <div class="photo">
+                    <img src="carlos_alberto_titulos.jpg" alt="Foto relacionada aos títulos">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Carlos Alberto Lima Coelho. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
